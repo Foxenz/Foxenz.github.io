@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Alexandre Roosens | Mon portofolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+
+                <div>
+                    <a href="#home" class="nav_logo">Alexandre</a>
+                </div>
+
+                <div class="nav_menu" id="nav-menu">
+                    <div class="nav_close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active">Accueil</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">À propos</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Compétences</a></li>
+                        <!-- <li class="nav_item"><a href="#services" class="nav_link">Services</a></li> -->
+                        <li class="nav_item"><a href="#works" class="nav_link">Mes projets</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Me contacter</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home_container bd-grid">
+                    <div class="home_data">
+                        <div class="home_img">
+                            <img src="assets/img/perfil.png" alt="profil image">
+                        </div>
+
+                        <h1 class="home_title">Alexandre Roosens</h1>
+                        <span class="home_profession">Apprenti Developpeur Frontend</span>
+                        
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/alexandre-roosens-aa8592235/" target="_blank" class="home_social-link"><i class="bx bxl-linkedin"></i></a>
+                            <a href="https://github.com/Foxenz" target="_blank" class="home_social-link"><i class='bx bxl-github'></i></a>
+                        </div>
+
+                        <a href="assets/mon_cv.pdf" target="_blank" class="button home_button">Voir mon cv</a>
+
+                        <div class="home_darkTheme">
+                            <i class='changeThemeButton home_social-link bx bx-moon'></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <span class="section-subtitle">Mon intro</span>
+                <h2 class="section-title">À propos de moi</h2>
+
+                <div class="about_container bd-grid">
+                    <div class="about-data">
+                        <p class="about_description">
+                            Je suis un étudiant en période de changement de type d’étude. J’ai fait 2 ans de bachelier en informatique de gestion à 
+                            l’Henallux dans le but de devenir analyste programmeur. Cepandant la façon d’apprendre ne me correspondait pas, et je me plaisais 
+                            plus dans mes études. 
+                            </br></br>
+                            Dans mon cursus, il y avait cours qui m’a énormément fait de l’œil. Il s’agit de mon cours de 
+                            développement web. Je m'y suis pris de passion et c'est à ce moment-là que j'ai su que je voulais devenir développeur web.
+                            </br></br>
+                            J’ai donc décidé de me réorienter dans une alternance en développement web frontend via l’IFAPME, dans le but de rentrer dans 
+                            un travail plus concret. Je profite donc de cette pause d’étude pour pouvoir me former un maximum en ligne pour prendre du 
+                            niveau et de l’expérience dans le domaine. 
+                        </p>
+                        <img src="assets/img/about.png" alt="about" class="about_img">
+                    </div>
+
+                    <div>
+                        <div class="about_information">
+                            <h3 class="about_information-title">Informations</h3>
+    
+                            <div class="about_information-data">
+                                <i class="bx bx-user about_information-icon"></i>
+                                <span>Alexandre Roosens</span>
+                            </div>
+    
+                            <div class="about_information-data">
+                                <i class="bx bx-phone about_information-icon"></i>
+                                <span>0470 17 64 36</span>
+                            </div>
+    
+                            <div class="about_information-data">
+                                <i class="bx bx-envelope about_information-icon"></i>
+                                <span>roosensalexandre@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="about_information">
+                            <h3 class="about_information-title">Expériences</h3>
+    
+                            <div class="about_information-data">
+                                <i class="bx bx-medal about_information-icon"></i>
+                                <div>
+                                    <span class="about_information-subtitle"><a title="Cliquez pour voir l'image" href="assets/img/certificationHackaton.jpg" target="_blank">Citizens Of Wallonia | Hackaton 2022</a></span>
+                                    <span class="about_information-subtitle-small">
+                                        Nominé pour 3 prix :<br>
+                                        - Prix des territoires intelligents<br>
+                                        - Prix de l'innovation techno<br>
+                                        - Prix data<br>
+                                        Gagnant du prix des territoires intelligents 
+                                    </span>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <span class="section-subtitle">Pourquoi me choisir</span>
+                <h2 class="section-title">Mes compétences</h2>
+
+                <div class="skills_container bd-grid">
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">Language web</h3>
+
+                        <div class="skills_data">
+                            <span class="skills_name">HTML</span>
+                            <span class="number">70%</span>
+                            <span class="skills_bar skills_html"></span>
+                        </div>
+
+                        <div class="skills_data">
+                            <span class="skills_name">CSS</span>
+                            <span class="number">50%</span>
+                            <span class="skills_bar skills_css"></span>
+                        </div>
+
+                        <div class="skills_data">
+                            <span class="skills_name">Javascript</span>
+                            <span class="number">40%</span>
+                            <span class="skills_bar skills_js"></span>
+                        </div>
+
+                        <div class="skills_data">
+                            <span class="skills_name">PHP</span>
+                            <span class="number">20%</span>
+                            <span class="skills_bar skills_php"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_content">
+                        <h3 class="skills_subtitle">Compétence général</h3>
+
+                        <div class="skills_data">
+                            <span class="skills_name">Github</span>
+                            <span class="number">20%</span>
+                            <span class="skills_bar skills_github"></span>
+                        </div>
+                        
+                        <div class="skills_data">
+                            <span class="skills_name">Docker</span>
+                            <span class="number">20%</span>
+                            <span class="skills_bar skills_docker"></span>
+                        </div>
+
+                        <div class="skills_data">
+                            <span class="skills_name">Serveur web</span>
+                            <span class="number">20%</span>
+                            <span class="skills_bar skills_serveurWeb"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== STRONGS POINTS =====-->
+            <section class="strongsPoints section">
+                <span class="section-subtitle">Pourquoi me choisir</span>
+                <h2 class="section-title">Mes points forts</h2>
+
+                <div class="strongsPoints_container bd-grid">
+                    <div class="strongsPoints_content">
+                        <i class="bx bx-happy strongsPoints_icon"></i>
+                        <h3 class="strongsPoints_title">Motivé</h3>
+                        <p class="strongsPoints_description">J'ai hâte de rejoindre une équipe pour apprendre tout en étant accompagné</p>
+                    </div>
+
+                    <div class="strongsPoints_content">
+                        <i class="bx bx-buildings strongsPoints_icon"></i>
+                        <h3 class="strongsPoints_title">Ambitieux</h3>
+                        <p class="strongsPoints_description">Je souhaite toujours dépasser mes limites et atteindre des objectifs toujours plus grand</p>
+                        
+                    </div>
+
+                    <div class="strongsPoints_content">
+                        <i class="bx bx-bot strongsPoints_icon"></i>
+                        <h3 class="strongsPoints_title">Autonome</h3>
+                        <p class="strongsPoints_description">La plupart des connaissances que j'ai en développement web ont été acquise de moi même grâce à de multitude formation en ligne.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EDUCATION =====-->
+            <section class="education section">
+                <span class="section-subtitle">Qualification</span>
+                <h2 class="section-title">Mes Études</h2>
+
+                <div class="education_container bd-grid">
+                    <div class="education_content">
+                        <div>
+                            <h3 class="education_year">2022 - 2024</h3>
+                            <span class="education_university">IFAPME</span>
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">En recherche d'alternance</h3>
+                            <span class="education_speciality">Développement web frontend</span>
+                        </div>
+                    </div>
+
+                    <div class="education_content">
+                        <div>
+                            <h3 class="education_year">2019 - 2022</h3>
+                            <span class="education_university">Haute école de Namur-Liège-Luxembourg</span>
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">Changement d'étude</h3>
+                            <span class="education_speciality">Informatique de gestion</span>
+                        </div>
+                    </div>
+
+                    <div class="education_content">
+                        <div>
+                            <h3 class="education_year">2015 - 2019</h3>
+                            <span class="education_university">Institut Saint-Jean-Berchmans</span>
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">CESS</h3>
+                            <span class="education_speciality">Transition informatique</span>
+                        </div>
+                    </div>
+
+                    <div class="education_content">
+                        <div>
+                            <h3 class="education_year">2013 - 2015</h3>
+                            <span class="education_university">Collège Sainte-Véronique</span>
+                        </div>
+
+                        <div class="education_time">
+                            <span class="education_rounder"></span>
+                            <span class="education_line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="education_race">CE1D</h3>
+                            <span class="education_speciality">Général</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORKS =====-->
+            <section class="works section" id="works">
+                <span class="section-subtitle">Mon portofolio</span>
+                <h2 class="section-title">Projets récents</h2>
+
+                <div class="works_container bd-grid">
+                    <div class="works_img">
+                        <img src="assets/img/projets/portofolio.png" alt="Work 1">
+
+                        <div class="works_data">
+                            <a href="#home" class="works_link"><i class="bx bx-link-alt"></i></a>
+                            <span class="works_title">Site personnel</span>
+                        </div>
+                    </div>
+
+                    <div class="works_img">
+                        <img src="assets/img/projets/snake.png" alt="Work 2">
+
+                        <div class="works_data">
+                            <a href="assets/projets/Jeu Serpent/index.html" target="_blank" class="works_link"><i class="bx bx-link-alt"></i></a>
+                            <span class="works_title">Jeu du serpent</span>
+                        </div>
+                    </div>
+
+                    <div class="works_img">
+                        <img src="assets/img/projets/meteo.png" alt="Work 3">
+    
+                        <div class="works_data">
+                            <a href="assets/projets/Application météo/index.html" target="_blank" class="works_link"><i class="bx bx-link-alt"></i></a>
+                            <span class="works_title">Météo actuelle</span>
+                        </div>
+                    </div>
+
+                    <div class="works_img">
+                        <img src="assets/img/projets/travelAgency.png" alt="Work 3">
+    
+                        <div class="works_data">
+                            <a href="assets/projets/Travel Agency/index.html" target="_blank" class="works_link"><i class="bx bx-link-alt"></i></a>
+                            <span class="works_title">Site d'agence de voyage</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <span class="section-subtitle">Contact</span>
+                <h2 class="section-title">Me contacter</h2>
+
+                <div class="contact_container bd-grid">
+                    <!-- <form class="contact_form">
+                        <div class="contact_inputs">
+                            <input name="nom" type="text" placeholder="Nom" class="contact_input" required>
+                            <input name="email" type="email" placeholder="Email" class="contact_input" required>
+                        </div>
+
+                        <input name="objet" type="text" placeholder="Objet" class="contact_input" required>
+
+                        <textarea name="message" cols="0" rows="10" placeholder="Message" class="contact_input" required></textarea>
+
+                        <input type="submit" value="Envoyer" class="button contact_button">
+                    </form> -->
+
+                    <div class="contact_info">
+                        <h3 class="contact_subtitle">Téléphone</h3>
+                        <span class="contact_text">0470 17 64 36</span>
+                    </div>
+
+                    <div class="contact_info">
+                        <h3 class="contact_subtitle">E-mail</h3>
+                        <span class="contact_text">roosensalexandre@gmail.com</span>
+                    </div>
+                </div>
+            </section>       
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer_container bd-grid">
+                <h1 class="footer_title">Alexandre</h1>
+                <p class="footer_description">Je suis Alexandre, voici mes réseaux sociaux, consultez-moi ici :</p>
+            
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/alexandre.roosens/" target="_blank" class="footer_link"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/alexandre_rsn/" target="_blank" class="footer_link"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/alexandre-roosens-aa8592235/" target="_blank" class="footer_link"><i class="bx bxl-linkedin"></i></a>
+                </div>
+
+                <p class="footer_copy">All right reserved by Alexandre Roosens - 2022</p>
+            </div>
+        </footer>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
