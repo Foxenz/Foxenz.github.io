@@ -560,7 +560,7 @@ img{
     text-align: center;
 }
 
-.contact_input{
+/* .contact_input{
     width: 100%;
     padding: 1rem;
     outline: none;
@@ -569,21 +569,21 @@ img{
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-2);
     border-radius: .5rem;
-}
+} */
 
-.contact ::placeholder{
+/* .contact ::placeholder{
     color: var(--first-color-dark);
     font-family: var(--body-font);
     font-weight: var(--font-medium);
-}
+} */
 
-.contact_button{
+/* .contact_button{
     outline: none;
     border: none;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     cursor: pointer;
-}
+} */
 
 .contact_info{
     margin-bottom: var(--mb-3);
@@ -704,10 +704,10 @@ img{
         align-self: flex-end;
     }
 
-    .contact_inputs{
+    /* .contact_inputs{
         display: grid;
         column-gap: 1.5rem;
-    }
+    } */
 
     .contact_info{
         padding-left: 3rem;
