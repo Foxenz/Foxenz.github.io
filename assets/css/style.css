@@ -213,8 +213,8 @@ img{
 }
 
 .home_img{
-    padding-top: 1.3rem;
-    padding-left: .8rem;
+    padding-top: .4rem;
+    padding-left: .2rem;
     width: 160px;
     height: 160px;
     background-color: var(--first-color);
@@ -224,7 +224,7 @@ img{
 }
 
 .home_img img{
-    width: 130px;
+    width: 155px;
 }
 
 .home_title{
