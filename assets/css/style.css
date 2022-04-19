@@ -372,31 +372,27 @@ img{
 }
 
 .skills_html{
-    width: 70%;
+    width: 75%;
 }
 
 .skills_css{
-    width: 50%;
+    width: 75%;
 }
 
 .skills_js{
-    width: 40%;
+    width: 50%;
 }
 
 .skills_php{
-    width: 10%;
+    width: 25%;
+}
+
+.skills_mysql{
+    width: 25%;
 }
 
 .skills_github{
     width: 50%;
-}
-
-.skills_docker{
-    width: 20%;
-}
-
-.skills_serveurWeb{
-    width: 20%;
 }
 
 /* ===== STRONGS POINTS =====*/
