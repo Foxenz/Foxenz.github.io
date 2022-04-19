@@ -224,7 +224,7 @@ img{
 }
 
 .home_img img{
-    width: 155px;
+    width: 130px;
 }
 
 .home_title{
@@ -307,12 +307,6 @@ img{
 
 .about_description{
     margin-bottom: var(--mb-4);
-}
-
-.about_img{
-    width: 175px;
-    border-radius: .5rem;
-    margin: 0 auto;
 }
 
 .about_information{
